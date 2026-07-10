@@ -6,6 +6,9 @@ import {
   View,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
+import { DrawerActions, useNavigation } from "@react-navigation/native";
+import { useLayoutEffect } from "react";
+import { TouchableOpacity } from "react-native";
 
 export default function SettingsScreen() {
   return (
