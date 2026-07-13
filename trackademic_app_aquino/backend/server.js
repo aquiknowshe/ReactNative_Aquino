@@ -20,7 +20,8 @@ app.use("/api/profile", require("./routes/profile"));
 app.use("/api/notifications", require("./routes/notifications"));
 
 const PORT = process.env.PORT || 5000;
+const IP = '10.155.225.134';
 
 app.listen(PORT, () => {
-    console.log(`🚀 Server running on http://localhost:${PORT}`);
+    console.log(`🚀 Server running on http://${IP}:${PORT}`);
 });
